@@ -1,14 +1,16 @@
 
-var config = {
-  apiKey: "AIzaSyD5bCyvYm5adElW2tllyfYH-CXnyQdUxVY",
-  authDomain: "contactform-2086d.firebaseapp.com",
-  databaseURL: "https://contactform-2086d.firebaseio.com",
-  projectId: "contactform-2086d",
-  storageBucket: "contactform-2086d.appspot.com",
-  messagingSenderId: "35839015044"
+const firebaseConfig = {
+  apiKey: "AIzaSyAZ55RzY7e660xagJO70amnW653l4g72R0",
+  authDomain: "petizd-80397.firebaseapp.com",
+  databaseURL: "https://petizd-80397-default-rtdb.firebaseio.com",
+  projectId: "petizd-80397",
+  storageBucket: "petizd-80397.appspot.com",
+  messagingSenderId: "781534226707",
+  appId: "1:781534226707:web:f9cd0ad58714562f6652e6",
+  measurementId: "G-S578ZWPNC8"
 };
 
-firebase.initializeApp(config);
+firebase.initializeApp(firebaseConfig);
 
 
 var messagesRef = firebase.database().ref('messages');
